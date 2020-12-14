@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './About.scss';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./About.scss";
 
 function About() {
   return (
@@ -13,13 +13,7 @@ function About() {
           <div className="content-wrapper">
             <div className="title-wrapper">
               <p className="title-text">
-                Everyone knows that Japanese make fantastic cars. But did you
-                know they make even better cars for the Japanese market? The
-                competition in Japan is insanely fierce because makers battle
-                for the wallets of the world’s most demanding consumers who
-                always want the latest, greatest model with the most advanced
-                technology — whether Japanese or luxury import. This makes Japan
-                the absolute best market for buying used cars.
+                made with love and passion by davit koshkelius (huge jdm fanboy)
               </p>
               <p className="title-text">
                 Not only do Japanese market models offer higher quality and
@@ -27,7 +21,7 @@ function About() {
                 possible condition through attentive maintenance and tender
                 loving care. Over 150,000 of these vehicles go on auction every
                 week, providing unrivaled value for secondhand car shoppers
-                around the world.{' '}
+                around the world.{" "}
               </p>
             </div>
 
@@ -43,11 +37,9 @@ function About() {
                 <span>Location:</span> Tokyo, Japan
               </p>
               <a href="#contact-section">
-                  <Link
-                    to="/contact"
-                  >
-                    <button>Contact</button>
-                  </Link>
+                <Link to="/contact">
+                  <button>Contact</button>
+                </Link>
               </a>
             </div>
           </div>
